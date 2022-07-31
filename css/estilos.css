@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    /*background-image: url("https://st.depositphotos.com/2235295/2689/i/600/depositphotos_26891681-stock-photo-futuristic-abstract-background-with-blue.jpg");*/
+    background-image: url("https://ep01.epimg.net/elpais/imagenes/2021/12/10/album/1639143803_433213_1639745607_noticia_normal.jpg");
+    background-size:cover;
+    color: #fff;
+    font-size: 16px;
+}
+
+.wrap {
+    width: 90%;
+    max-width: 1000px;
+    /*margin: auto; = para centrar*/
+}
+
+.widget {
+    width: 40%;
+    margin: 2em;
+    /*margin: 32px; = lo mismo que 2em*/
+}
+
+.widget p {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.fecha {
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 0.3125rem; /*margin-bottom: 5px; = lo mismo*/
+    background: rgba(0,0,0,.5);
+    padding: 20px;
+    width:100%;
+}
+
+.reloj {
+    font-family: Oswald, Arial;
+    text-align: center;
+    font-size: 4em;
+    background: rgba(0,0,0,.5);
+    padding: 20px;
+    width:100%;
+}
+
+.reloj .caja-segundos {
+    display: inline-block;
+}
+
+.reloj .ampm,
+.reloj .segundos {
+    font-size: 2rem;
+    display: block;
+}
